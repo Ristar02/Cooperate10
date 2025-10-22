@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c051e594e8500754d81205645987fd7a, type: 3}
+  m_Name: HighMageOrder
+  m_EditorClassIdentifier: 
+  Icon: {fileID: 21300000, guid: 56c153c69dd58e7488ec7c7613004f73, type: 3}
+  SynergyName: "\uACE0\uC704 \uB9C8\uBC95\uC0AC\uB2E8"
+  Description: "\uC77C\uBC18 \uACF5\uACA9 \uC2DC \uCD94\uAC00 \uB9C8\uB098 \uD68D\uB4DD,
+    \uC2A4\uD0AC \uACF5\uACA9 \uC2DC \uCD94\uAC00 \uB9C8\uBC95 \uACF5\uACA9\uB825\uC744
+    \uD68D\uB4DD\uD55C\uB2E4. \uB9C8\uBC95 \uACF5\uACA9\uB825\uC740 \uCD5C\uB300
+    5\uD68C \uC911\uCCA9\uB41C\uB2E4."
+  SynergyLevelData:
+  - SynergyNeedCount: 2
+    Effects:
+    - {fileID: 11400000, guid: f2f1a451ff1f170459b6614d59d1a8da, type: 2}
+    - {fileID: 11400000, guid: 5252ab66638c3864490428d3d31b5a61, type: 2}
+  - SynergyNeedCount: 4
+    Effects:
+    - {fileID: 11400000, guid: 53d5f40762b6dc6488cc2a65e420a237, type: 2}
+    - {fileID: 11400000, guid: 2cdd33b894be13b4fa0d8f5af0e75770, type: 2}
+  - SynergyNeedCount: 6
+    Effects:
+    - {fileID: 11400000, guid: 54b48d9a2b5f78c4294b5787784024f3, type: 2}
+    - {fileID: 11400000, guid: 4c03e6ffd4710334481b3411a76da072, type: 2}
+  CurrentUpgradeIdx: -1
+  Synergy: 6

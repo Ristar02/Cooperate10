@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ba4dc1bdce5d5b43b0a4a0b7f78493a, type: 3}
+  m_Name: Ranged
+  m_EditorClassIdentifier: 
+  Icon: {fileID: 21300000, guid: 9ef71e342246e4c35962b08bfa9f02a5, type: 3}
+  SynergyName: "\uC6D0\uAC70\uB9AC \uB51C\uB7EC"
+  Description: "\uC6D0\uAC70\uB9AC \uB51C\uB7EC\uB294 \uCD94\uAC00 \uB2A5\uB825\uCE58\uB97C
+    \uC5BB\uC2B5\uB2C8\uB2E4."
+  SynergyLevelData:
+  - SynergyNeedCount: 2
+    Effects:
+    - {fileID: 11400000, guid: 6ebc664bc2edca44e861fcc6cd0d1b16, type: 2}
+  - SynergyNeedCount: 4
+    Effects:
+    - {fileID: 11400000, guid: 30ad874beee6cfc49924506e2ada2bcc, type: 2}
+  - SynergyNeedCount: 6
+    Effects:
+    - {fileID: 11400000, guid: ae392b17d9afce84f8585a65fb6d3a99, type: 2}
+  CurrentUpgradeIdx: -1
+  Synergy: 2

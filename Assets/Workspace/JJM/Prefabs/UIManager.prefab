@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2107446967086484864
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4672642130657955998}
+  - component: {fileID: 4323919242065344937}
+  - component: {fileID: 7448064312472586935}
+  - component: {fileID: 208776119273401241}
+  - component: {fileID: 8291393410963776398}
+  m_Layer: 0
+  m_Name: UIManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4672642130657955998
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2107446967086484864}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 316.86716, y: 1133.4752, z: 14.680804}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4323919242065344937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2107446967086484864}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f617912bed35b7a4489969e141afb149, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  settingPanel: {fileID: 0}
+  couponPanel: {fileID: 0}
+  acountPanel: {fileID: 0}
+  couponBtn: {fileID: 0}
+  acountBtn: {fileID: 0}
+--- !u!114 &7448064312472586935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2107446967086484864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89da8ae8e0bbdf448923d4436413c50f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slideUpPanels:
+  - {fileID: 0}
+  slideInPanels:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  enemySlideUpPanels:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  enemySlideInPanels:
+  - {fileID: 0}
+  slideDuration: 0.1
+  slideOffset: 2280
+  moveButton: {fileID: 0}
+  summonSceneButton: {fileID: 0}
+  backgroundTransform: {fileID: 0}
+--- !u!114 &208776119273401241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2107446967086484864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da748eeb71315f24696e891707f3ee8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8291393410963776398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2107446967086484864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7dbcc4c2d0dcf3f45b8a92ad75256e5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waitingBattlePlayer: {fileID: 0}
+  waitingBattleEnemy: {fileID: 0}
+  enemyInfoMoveButton: {fileID: 0}
+  restMoveButton: {fileID: 0}
+  offScreenX: 1080
+  slideDuration: 0.4
